@@ -10,7 +10,7 @@ body{
 a{
   text-decoration: none;
   cursor: pointer;
-  font-size: 180%;
+  font-size: 150%;
   color: #fff;
 }
 .cont{
@@ -40,6 +40,7 @@ a{
     transform: translate(-50%, -50%);
     text-align: center;
     border-style: solid;
+    padding: 5px;
     border-radius: 10px;
 }
 .vote{
@@ -51,6 +52,7 @@ a{
     text-align: center;
     margin-left: 2.5%;
     border-style: solid;
+    padding: 5px;
     border-radius: 10px;
 }
 .support{
@@ -62,6 +64,7 @@ a{
     text-align: center;
     margin-left: 5%;
     border-style: solid;
+    padding: 5px;
     border-radius: 10px;
 }
 .follow{
@@ -73,6 +76,7 @@ a{
     text-align: center;
     margin-left: 7.5%;
     border-style: solid;
+    padding: 5px;
     border-radius: 10px;
 }
 .footer{
