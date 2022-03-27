@@ -28,13 +28,13 @@ a{
     font-size: 500%;
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .invite{
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 30%;
     width: 10%;
     transform: translate(-50%, -50%);
@@ -42,7 +42,7 @@ a{
 }
 .vote{
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 40%;
     width: 10%;
     transform: translate(-50%, -50%);
@@ -51,7 +51,7 @@ a{
 }
 .support{
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 50%;
     width: 10%;
     transform: translate(-50%, -50%);
@@ -60,12 +60,20 @@ a{
 }
 .follow{
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 60%;
     width: 10%;
     transform: translate(-50%, -50%);
     text-align: center;
     margin-left: 7.5%;
+}
+.footer{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 @media screen and (max-width: 800px){
   .moving_background_gradient{
