@@ -10,7 +10,7 @@ body{
 a{
   text-decoration: none;
   cursor: pointer;
-  font-size: 200%;
+  font-size: 180%;
   color: #fff;
 }
 .cont{
@@ -39,6 +39,8 @@ a{
     width: 10%;
     transform: translate(-50%, -50%);
     text-align: center;
+    border-style: solid;
+    border-radius: 10px;
 }
 .vote{
     position: absolute;
@@ -48,6 +50,8 @@ a{
     transform: translate(-50%, -50%);
     text-align: center;
     margin-left: 2.5%;
+    border-style: solid;
+    border-radius: 10px;
 }
 .support{
     position: absolute;
@@ -57,6 +61,8 @@ a{
     transform: translate(-50%, -50%);
     text-align: center;
     margin-left: 5%;
+    border-style: solid;
+    border-radius: 10px;
 }
 .follow{
     position: absolute;
@@ -66,6 +72,8 @@ a{
     transform: translate(-50%, -50%);
     text-align: center;
     margin-left: 7.5%;
+    border-style: solid;
+    border-radius: 10px;
 }
 .footer{
     position: absolute;
@@ -75,16 +83,18 @@ a{
     transform: translate(-50%, -50%);
     text-align: center;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1092px){
   .moving_background_gradient{
     width: 100vw;
+    float: center;
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   .invite{
-    width: 100vw;
+    width: 40vw;
+    float: center;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -92,7 +102,8 @@ a{
   }
   .vote{
     margin: 0;
-    width: 100vw;
+    width: 40vw;
+    float: center;
     position: absolute;
     top: 60%;
     left: 50%;
@@ -100,7 +111,8 @@ a{
   }
   .support{
     margin: 0;
-    width: 100vw;
+    width: 40vw;
+    float: center;
     position: absolute;
     top: 70%;
     left: 50%;
@@ -108,7 +120,53 @@ a{
   }
   .follow{
     margin: 0;
+    width: 40vw;
+    float: center;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media screen and (max-width: 900px){
+  .moving_background_gradient{
     width: 100vw;
+    float: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .invite{
+    width: 50vw;
+    float: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .vote{
+    margin: 0;
+    width: 50vw;
+    float: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .support{
+    margin: 0;
+    width: 50vw;
+    float: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .follow{
+    margin: 0;
+    width: 50vw;
+    float: center;
     position: absolute;
     top: 80%;
     left: 50%;
